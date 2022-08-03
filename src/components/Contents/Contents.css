@@ -1,0 +1,96 @@
+.open {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr {
+    background-color: skyblue;
+    width: 50px;
+    height: 0.5px;
+    margin: 8px 20px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+}
+
+.log-btn {
+    background-color: rgb(101, 240, 189);
+    margin: 15px 20px;
+    border: 1px solid rgb(50, 63, 68);
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+
+.sign-btn {
+    background-color: white;
+    margin: 15px 20px;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+
+.in-show {
+    margin: 10px;
+    border: 2px solid rgba(47, 79, 79, 0.5);
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.icon-img {
+    width: 80px;
+    border: 2px solid rgba(189, 184, 184, 0.714);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.delivery-box {
+    border: 2px solid rgba(189, 184, 184, 0.714);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 20px;
+    width: 48%;
+}
+
+.delivery-box img {
+    width: auto;
+}
+
+.profile img {
+    width: 50px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 20px
+}
+
+.profile-box {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.total {
+    width: 70%;
+    background-color: rgb(149, 168, 186);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.free-ship {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}

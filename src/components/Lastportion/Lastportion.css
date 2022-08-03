@@ -1,0 +1,14 @@
+.cont-shop {
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 25px;
+    color: gray;
+    margin-right: 20px;
+}
+
+.prop-pay {
+    background-color: rgb(101, 240, 189);
+    padding: 6px 10px;
+    border-radius: 25px;
+    color: gray;
+}

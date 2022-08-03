@@ -1,0 +1,18 @@
+.title {
+    color: orangered;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.head {
+    height: 60px;
+    border-bottom: 1px solid rgba(113, 189, 202, 0.797);
+}
+
+.icon {
+    margin: 0 15px;
+}
