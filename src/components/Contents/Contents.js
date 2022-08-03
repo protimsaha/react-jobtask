@@ -1,11 +1,13 @@
 import React from 'react';
 import './Contents.css'
-
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart, faCab } from '@fortawesome/free-solid-svg-icons'
 import Lastportion from '../Lastportion/Lastportion';
 
 const Contents = () => {
+
+
     return (
         <main className='container'>
             <section className='open my-5' >
@@ -20,8 +22,8 @@ const Contents = () => {
             </section>
             <section className='main-content'>
                 <div>
-                    <button className='log-btn active'>LOG IN</button>
-                    <button className='sign-btn'>SIGN UP</button>
+                    <Link to='/login'><button className='log-btn active'>LOG IN</button></Link>
+                    <Link to='/signup'><button className='sign-btn'>SIGN UP</button></Link>
                     <p className='text-start'>Shipping Information</p>
                     <div className=''>
                         <input className='in-show' type="text" placeholder='Email' />
