@@ -10,7 +10,12 @@ const Navbar = () => {
     return (
         <nav className='d-flex container align-items-center justify-content-between head'>
             <div>
-                <Link className='homeLink' to='/'><h6 role={'button'}><span className='title'>E-</span>Shop</h6></Link>
+                <Link className='homeLink' to='/'>
+                    <div className='title-logo d-flex align-items-center'>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74fMn6LxqneeJTknjQVL3DVyqaVsdCDP7sMAGaChoOtpJbzboX2JU1IwjB2G6qx-hhc4&usqp=CAU" alt="" />
+                        <h6 role={'button'}><span className='title'>E-</span>Shop</h6>
+                    </div>
+                </Link>
             </div>
             <div>
                 <NavLink className='link' to=''>Men</NavLink>

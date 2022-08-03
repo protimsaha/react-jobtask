@@ -20,3 +20,8 @@
 .icon {
     margin: 0 15px;
 }
+
+.title-logo img {
+    width: 50px;
+    margin-right: 15px;
+}
